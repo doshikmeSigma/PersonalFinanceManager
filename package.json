@@ -1,0 +1,16 @@
+{
+  "name": "finance-tracker",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Учёт личных финансов: операции, категории, бюджеты, отчёты",
+  "workspaces": [
+    "server"
+  ],
+  "scripts": {
+    "dev:server": "npm run dev --workspace server",
+    "start:server": "npm run start --workspace server"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
