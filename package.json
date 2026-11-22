@@ -8,9 +8,10 @@
   ],
   "scripts": {
     "dev:server": "npm run dev --workspace server",
-    "start:server": "npm run start --workspace server"
+    "start:server": "npm run start --workspace server",
+    "migrate": "npm run migrate --workspace server"
   },
   "engines": {
-    "node": ">=20"
+    "node": ">=22.5"
   }
 }
